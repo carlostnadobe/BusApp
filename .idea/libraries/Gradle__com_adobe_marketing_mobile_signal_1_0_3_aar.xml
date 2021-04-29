@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.adobe.marketing.mobile:signal:1.0.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/signal-1.0.3.aar/4b72f57ea8580ee4f12e330ee49afdac/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/signal-1.0.3.aar/4b72f57ea8580ee4f12e330ee49afdac/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/signal-1.0.3.aar/4b72f57ea8580ee4f12e330ee49afdac/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.adobe.marketing.mobile/signal/1.0.3/d4d82990bccd3bacfe7aed1587be9dcd07f2c674/signal-1.0.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

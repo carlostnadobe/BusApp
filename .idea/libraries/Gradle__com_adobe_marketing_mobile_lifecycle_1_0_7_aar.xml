@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.adobe.marketing.mobile:lifecycle:1.0.7@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/lifecycle-1.0.7.aar/278afc8688f1d9f6a245668ad26d7775/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/lifecycle-1.0.7.aar/278afc8688f1d9f6a245668ad26d7775/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/lifecycle-1.0.7.aar/278afc8688f1d9f6a245668ad26d7775/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.adobe.marketing.mobile/lifecycle/1.0.7/5fa9437a7264d37987275ae3f14404a0136a176/lifecycle-1.0.7-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

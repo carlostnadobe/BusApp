@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.adobe.marketing.mobile:identity:1.2.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/identity-1.2.2.aar/514d1da1817e7abb35b3779acf32791d/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/identity-1.2.2.aar/514d1da1817e7abb35b3779acf32791d/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/identity-1.2.2.aar/514d1da1817e7abb35b3779acf32791d/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.adobe.marketing.mobile/identity/1.2.2/6247cafe53c8ce16044ee9c0d40c1af970e8b241/identity-1.2.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

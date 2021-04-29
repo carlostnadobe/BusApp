@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.adobe.marketing.mobile:target:1.1.6@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/target-1.1.6.aar/89debb41e18497d8dd424e3320164ac9/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/target-1.1.6.aar/89debb41e18497d8dd424e3320164ac9/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/target-1.1.6.aar/89debb41e18497d8dd424e3320164ac9/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.adobe.marketing.mobile/target/1.1.6/42c394e3d4fa74911eca4eedc6ffb38a56ee741c/target-1.1.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

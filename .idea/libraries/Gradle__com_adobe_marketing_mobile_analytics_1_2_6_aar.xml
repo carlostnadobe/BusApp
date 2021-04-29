@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.adobe.marketing.mobile:analytics:1.2.6@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/analytics-1.2.6.aar/a9accda57ceec414f45bf94b941b924d/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/analytics-1.2.6.aar/a9accda57ceec414f45bf94b941b924d/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/analytics-1.2.6.aar/a9accda57ceec414f45bf94b941b924d/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.adobe.marketing.mobile/analytics/1.2.6/f0515daa1e80fe9f11bc931458b1afcb080a9119/analytics-1.2.6-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.adobe.marketing.mobile:griffon:1.2.1@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/griffon-1.2.1.aar/28fe84c65e428940a02dcb3f2e9baecd/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/griffon-1.2.1.aar/28fe84c65e428940a02dcb3f2e9baecd/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/griffon-1.2.1.aar/28fe84c65e428940a02dcb3f2e9baecd/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.adobe.marketing.mobile/griffon/1.2.1/15adf81f8e97b061ea64ce16196d6b37e23e9ae5/griffon-1.2.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
