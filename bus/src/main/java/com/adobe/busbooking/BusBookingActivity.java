@@ -33,6 +33,9 @@ import android.widget.TextView;
 
 import com.adobe.marketing.mobile.MobileCore;
 
+import java.util.HashMap;
+import java.util.Map;
+
 /**
  * This activity class is responsible to show booking engine page and offer card.
  */
@@ -40,6 +43,7 @@ public class BusBookingActivity extends AppCompatActivity {
 
     private TextView mTextGoingTo, mTextLeavingFrom, mTextSource, mTextDestination;
     private ImageButton mBtnFlip;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -230,6 +234,10 @@ public class BusBookingActivity extends AppCompatActivity {
         super.onResume();
         MobileCore.setApplication(getApplication());
         MobileCore.lifecycleStart(null);
+
+        HashMap cData = new HashMap<String, String>();
+        cData.put("key", "value");
+        MobileCore.trackState("Screen1",cData);
      }
 
     @Override
