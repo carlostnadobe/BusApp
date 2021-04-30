@@ -69,6 +69,11 @@ public class BusBookingActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 showConfirmationDialog();
+                HashMap cData = new HashMap<String, String>();
+                cData.put("section", "bus booking");
+                MobileCore.trackAction("get buses", cData);
+                System.out.println("AA-LOG:MobileCore.trackAction-get buses");
+
             }
         });
 

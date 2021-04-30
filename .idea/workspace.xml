@@ -45,6 +45,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -172,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619781998560</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="trackstate+trackAction`+detailpage">
+      <created>1619782558156</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1619782558156</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -181,17 +189,22 @@
     <MESSAGE value="lifecycle" />
     <MESSAGE value="trackstate" />
     <MESSAGE value="trackstate+trackAction" />
-    <option name="LAST_COMMIT_MESSAGE" value="trackstate+trackAction" />
+    <MESSAGE value="trackstate+trackAction`+detailpage" />
+    <option name="LAST_COMMIT_MESSAGE" value="trackstate+trackAction`+detailpage" />
   </component>
   <component name="WindowStateProjectService">
     <state x="313" y="-859" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1619723307358">
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
     <state x="313" y="-859" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1619723307358" />
-    <state x="421" y="-936" key="CommitChangelistDialog2" timestamp="1619781996699">
+    <state x="276" y="-825" key="AndroidCreateResourceDirectoryDialog" timestamp="1619783369242">
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
-    <state x="421" y="-936" key="CommitChangelistDialog2/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1619781996699" />
+    <state x="276" y="-825" key="AndroidCreateResourceDirectoryDialog/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1619783369242" />
+    <state x="421" y="-936" key="CommitChangelistDialog2" timestamp="1619782556432">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="421" y="-936" key="CommitChangelistDialog2/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1619782556432" />
     <state x="421" y="144" key="CommitChangelistDialog2/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1619726157263" />
     <state x="421" y="144" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1619733097366" />
     <state x="738" y="-616" key="Github.ShareDialog" timestamp="1619723329635">
@@ -226,20 +239,24 @@
     <state width="1324" height="173" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1619782541419" />
     <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1619726146625" />
     <state width="1876" height="190" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1619736806138" />
-    <state x="552" y="-827" key="Vcs.Push.Dialog.v2" timestamp="1619782004752">
+    <state x="197" y="-935" key="SettingsEditor" timestamp="1619783009090">
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
-    <state x="552" y="-827" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1619782004752" />
+    <state x="197" y="-935" key="SettingsEditor/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1619783009090" />
+    <state x="552" y="-827" key="Vcs.Push.Dialog.v2" timestamp="1619782559883">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="552" y="-827" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1619782559883" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1619726162969" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1619733200390" />
     <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619733763736">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="769" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1619733763736" />
-    <state x="623" y="-855" width="672" height="678" key="search.everywhere.popup" timestamp="1619782337575">
+    <state x="623" y="-855" width="672" height="678" key="search.everywhere.popup" timestamp="1619783579826">
       <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
-    <state x="623" y="-855" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1619782337575" />
+    <state x="623" y="-855" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/0.-1080.1920.1040@0.-1080.1920.1040" timestamp="1619783579826" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1619724398721" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1619734362972" />
   </component>

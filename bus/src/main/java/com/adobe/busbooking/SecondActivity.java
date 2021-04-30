@@ -22,6 +22,10 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 
+import com.adobe.marketing.mobile.MobileCore;
+
+import java.util.HashMap;
+
 
 //import com.adobe.marketing.mobile.MobileCore;
 
@@ -53,6 +57,12 @@ public class SecondActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
+        HashMap cData = new HashMap<String, String>();
+        cData.put("section", "bus booking");
+        MobileCore.trackState("journey details",cData);
+        System.out.println("AA-LOG:MobileCore.trackState-screen-journey details");
+
+
     }
 
     @Override
