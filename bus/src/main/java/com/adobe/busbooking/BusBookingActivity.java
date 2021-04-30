@@ -240,10 +240,11 @@ public class BusBookingActivity extends AppCompatActivity {
         HashMap cData = new HashMap<String, String>();
         cData.put("key", "value");
         MobileCore.trackState("screen1",cData);
-
+        System.out.println("AA-LOG:MobileCore.trackState-screen1");
 
         cData.put("actionName", "actionValue");
         MobileCore.trackAction("action1", cData);
+        System.out.println("AA-LOG:MobileCore.trackAction-action1");
      }
 
     @Override
