@@ -25,6 +25,7 @@ import com.adobe.marketing.mobile.InvalidInitException;
 import com.adobe.marketing.mobile.Lifecycle;
 import com.adobe.marketing.mobile.LoggingMode;
 import com.adobe.marketing.mobile.MobileCore;
+import com.adobe.marketing.mobile.MobilePrivacyStatus;
 import com.adobe.marketing.mobile.MobileServices;
 import com.adobe.marketing.mobile.Signal;
 import com.adobe.marketing.mobile.Target;
@@ -41,6 +42,7 @@ public class DemoApplication extends Application {
         super.onCreate();
         MobileCore.setApplication(this);
         MobileCore.setLogLevel(LoggingMode.DEBUG);
+        MobileCore.setPrivacyStatus(MobilePrivacyStatus.OPT_IN);
         try{
             Target.registerExtension();
             Griffon.registerExtension();

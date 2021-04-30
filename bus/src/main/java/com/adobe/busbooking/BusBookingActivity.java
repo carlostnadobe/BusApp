@@ -16,7 +16,7 @@
  * from Adobe Systems Incorporated.
  **************************************************************************/
 package com.adobe.busbooking;
-
+import java.util.HashMap;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.DialogFragment;
@@ -32,6 +32,7 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 
 import com.adobe.marketing.mobile.MobileCore;
+import com.adobe.marketing.mobile.MobilePrivacyStatus;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -234,10 +235,15 @@ public class BusBookingActivity extends AppCompatActivity {
         super.onResume();
         MobileCore.setApplication(getApplication());
         MobileCore.lifecycleStart(null);
+        MobileCore.setPrivacyStatus(MobilePrivacyStatus.OPT_IN);
 
         HashMap cData = new HashMap<String, String>();
         cData.put("key", "value");
-        MobileCore.trackState("Screen1",cData);
+        MobileCore.trackState("screen1",cData);
+
+
+        cData.put("actionName", "actionValue");
+        MobileCore.trackAction("action1", cData);
      }
 
     @Override
