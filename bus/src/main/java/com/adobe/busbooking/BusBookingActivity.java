@@ -247,9 +247,7 @@ public class BusBookingActivity extends AppCompatActivity {
         MobileCore.trackState("home",cData);
         System.out.println("AA-LOG:MobileCore.trackState-screen-home");
 
-        cData.put("section", "journey details");
-        MobileCore.trackAction("booking page", cData);
-        System.out.println("AA-LOG:MobileCore.trackAction-booking page");
+
      }
 
     @Override

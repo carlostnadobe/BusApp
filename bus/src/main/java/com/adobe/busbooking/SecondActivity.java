@@ -49,6 +49,10 @@ public class SecondActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 onBackPressed();
+                HashMap cData = new HashMap<String, String>();
+                cData.put("section", "journey details");
+                MobileCore.trackAction("go back", cData);
+                System.out.println("AA-LOG:MobileCore.trackAction-go back");
             }
         });
     }
