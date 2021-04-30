@@ -238,13 +238,13 @@ public class BusBookingActivity extends AppCompatActivity {
         MobileCore.setPrivacyStatus(MobilePrivacyStatus.OPT_IN);
 
         HashMap cData = new HashMap<String, String>();
-        cData.put("key", "value");
-        MobileCore.trackState("screen1",cData);
-        System.out.println("AA-LOG:MobileCore.trackState-screen1");
+        cData.put("section", "bus booking");
+        MobileCore.trackState("home",cData);
+        System.out.println("AA-LOG:MobileCore.trackState-screen-home");
 
-        cData.put("actionName", "actionValue");
-        MobileCore.trackAction("action1", cData);
-        System.out.println("AA-LOG:MobileCore.trackAction-action1");
+        cData.put("section", "journey details");
+        MobileCore.trackAction("booking page", cData);
+        System.out.println("AA-LOG:MobileCore.trackAction-booking page");
      }
 
     @Override

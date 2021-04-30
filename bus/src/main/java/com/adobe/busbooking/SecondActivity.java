@@ -40,7 +40,7 @@ public class SecondActivity extends AppCompatActivity {
     private void setUpToolBar() {
         Toolbar toolbar = findViewById(R.id.toolbar);
         toolbar.setNavigationIcon(R.drawable.abc_ic_ab_back_material);
-        toolbar.setTitle("Second Screen");
+        toolbar.setTitle("Journey Details");
         toolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
