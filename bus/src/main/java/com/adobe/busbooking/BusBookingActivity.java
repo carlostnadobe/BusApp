@@ -18,7 +18,9 @@
 package com.adobe.busbooking;
 import java.util.HashMap;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.v4.app.DialogFragment;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
@@ -31,6 +33,10 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
+import com.adobe.marketing.mobile.AdobeCallback;
+import com.adobe.marketing.mobile.Analytics;
+import com.adobe.marketing.mobile.Identity;
+import com.adobe.marketing.mobile.Lifecycle;
 import com.adobe.marketing.mobile.MobileCore;
 import com.adobe.marketing.mobile.MobilePrivacyStatus;
 
@@ -40,15 +46,19 @@ import java.util.Map;
 /**
  * This activity class is responsible to show booking engine page and offer card.
  */
-public class BusBookingActivity extends AppCompatActivity {
 
+public class BusBookingActivity extends AppCompatActivity {
     private TextView mTextGoingTo, mTextLeavingFrom, mTextSource, mTextDestination;
     private ImageButton mBtnFlip;
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //PreferenceManager.getDefaultSharedPreferences(getBaseContext()).edit().clear().apply();
+        System.out.println("AA-LOG:preferenceManager - clear (sharedPreferences)");
+
+        MobileCore.setPrivacyStatus(MobilePrivacyStatus.OPT_IN);
+        System.out.println("AA-LOG:MobilePrivacyStatus.OPT_IN onCreate");
+
         setContentView(R.layout.activity_bus_booking);
         setUpToolBar();
         mTextGoingTo =  findViewById(R.id.text_going_to);
@@ -238,21 +248,30 @@ public class BusBookingActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
+
         MobileCore.setApplication(getApplication());
         MobileCore.lifecycleStart(null);
-        MobileCore.setPrivacyStatus(MobilePrivacyStatus.OPT_IN);
+
 
         HashMap cData = new HashMap<String, String>();
         cData.put("section", "bus booking");
         MobileCore.trackState("home",cData);
         System.out.println("AA-LOG:MobileCore.trackState-screen-home");
 
-
+        Analytics.getTrackingIdentifier(new AdobeCallback<String>() {
+            @Override
+            public void call(final String trackingIdentifier) {
+                // check the trackingIdentifier value
+                System.out.println("AA-LOG: trackingIdentifier: "+trackingIdentifier);
+            }
+        });
      }
 
     @Override
     protected void onPause() {
         super.onPause();
+        MobileCore.lifecyclePause();
+        System.out.println("AA-LOG:lifecyclePause - onPause");
     }
 
     private void showConfirmationDialog() {
