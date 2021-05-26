@@ -261,7 +261,7 @@ public class BusBookingActivity extends AppCompatActivity {
         Analytics.getTrackingIdentifier(new AdobeCallback<String>() {
             @Override
             public void call(final String trackingIdentifier) {
-                // check the trackingIdentifier value
+                // check the trackingIdentifier value --> ECID (if null, there is no ECID service)
                 System.out.println("AA-LOG: trackingIdentifier: "+trackingIdentifier);
             }
         });
